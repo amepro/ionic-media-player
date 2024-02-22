@@ -1,5 +1,5 @@
 <div class="video-container" (mouseenter)="showControls()" (mouseleave)="hideControls()">
-    <video #videoPlayer controls height="240" (click)="toggleControls()" (play)="hideControls()" (pause)="showControls()">
+    <video #videoPlayer height="240" (click)="toggleControls()" (play)="hideControls()" (pause)="showControls()" controls="controls" preload="metadata" webkit-playsinline="webkit-playsinline">
     <source [src]="videos[currentVideoIndex]" type="video/mp4">
     Votre navigateur ne supporte pas la balise vidéo.
   </video>

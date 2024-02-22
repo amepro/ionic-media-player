@@ -134,11 +134,11 @@
       },
       {
         "file": "src/app/home/home.page.html",
-        "hash": "3668328913015384273"
+        "hash": "12135941462234722187"
       },
       {
         "file": "src/app/home/home.page.scss",
-        "hash": "14250411118003398491"
+        "hash": "2026861401087169432"
       },
       {
         "file": "src/app/home/home.page.spec.ts",
@@ -146,7 +146,15 @@
       },
       {
         "file": "src/app/home/home.page.ts",
-        "hash": "1571215977137710084"
+        "hash": "15411518242979689284"
+      },
+      {
+        "file": "src/app/services/video.service.spec.ts",
+        "hash": "2360470974403925957"
+      },
+      {
+        "file": "src/app/services/video.service.ts",
+        "hash": "14955939468343933053"
       },
       {
         "file": "src/assets/icon/favicon.png",
@@ -155,6 +163,18 @@
       {
         "file": "src/assets/shapes.svg",
         "hash": "4708889011185296100"
+      },
+      {
+        "file": "src/assets/videos/haireLover.mp4",
+        "hash": "779172658078666402"
+      },
+      {
+        "file": "src/assets/videos/laye.mp4",
+        "hash": "17090779928439863826"
+      },
+      {
+        "file": "src/assets/videos/teaser_2.mp4",
+        "hash": "11361898337358660794"
       },
       {
         "file": "src/environments/environment.prod.ts",
@@ -198,7 +218,7 @@
       },
       {
         "file": "tsconfig.json",
-        "hash": "9300148005582941852"
+        "hash": "16966134560215960429"
       },
       {
         "file": "tsconfig.spec.json",
