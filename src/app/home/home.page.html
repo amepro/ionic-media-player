@@ -1,20 +1,14 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
-</ion-content>
+<div class="video-container" (mouseenter)="showControls()" (mouseleave)="hideControls()">
+    <video #videoPlayer controls height="240" (click)="toggleControls()" (play)="hideControls()" (pause)="showControls()">
+    <source [src]="videos[currentVideoIndex]" type="video/mp4">
+    Votre navigateur ne supporte pas la balise vidéo.
+  </video>
+    <div class="video-controls hidden">
+        <ion-button fill="clear" class="control-button" (click)="previousVideo()">
+            <ion-icon name="arrow-back-circle"></ion-icon>
+        </ion-button>
+        <ion-button fill="clear" class="control-button" (click)="nextVideo()">
+            <ion-icon name="arrow-forward-circle"></ion-icon>
+        </ion-button>
+    </div>
+</div>
